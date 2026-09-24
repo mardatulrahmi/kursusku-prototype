@@ -49,22 +49,13 @@ $tahun = date("Y");
     </div>
 
   </header>
-
-  <nav class="navbar">
-
-    <div class="container">
-
-      <a href="#beranda">Beranda</a>
-
-      <a href="#kursus">Kursus</a>
-
-      <a href="#tentang">Tentang</a>
-
-      <a href="#kontak">Kontak</a>
-
-    </div>
-
-  </nav>
+<nav class="navbar">
+  <div class="container">
+    <a href="index.php">Beranda</a>
+    <a href="index.php#kursus">Katalog</a>
+    <a href="registration.php">Daftar Kursus</a>
+  </div>
+</nav>
 
   <main>
     <section id="beranda" class="hero">
